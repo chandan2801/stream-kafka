@@ -1,6 +1,8 @@
 # stream-kafka
 # Data Pipeline Project using GCP
 
+![kafka-spark-stream drawio](https://github.com/user-attachments/assets/d2511e34-2881-43c8-aa45-43da1f0d0c79)
+
 ## Project Overview
 This project implements a robust data pipeline leveraging Google Cloud Platform (GCP) services to handle streaming and batch data processing. The pipeline fetches JSON data from the Wikipedia Recent Changes API, processes it through Kafka and Spark Streaming, and ultimately stores it in BigQuery for analytics and reporting.
 
@@ -61,7 +63,7 @@ This project implements a robust data pipeline leveraging Google Cloud Platform 
    - Schedule the batch job using Airflow on Cloud Composer.
 
 ## Notes
- - Detailed explanation of each utility is mentioned within the codebase.
+ - Detailed explanation of each utility is mentioned within the **notes** section.
    
 ## Future Improvements
 - Implement data quality checks during ingestion.
